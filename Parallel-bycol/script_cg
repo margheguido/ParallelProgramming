@@ -1,0 +1,6 @@
+#!/bin/bash -l
+#SBATCH -A phys-743 
+#SBATCH --reservation phys-743 -N 2 -n 50 -c 1 
+#SBATCH --output=results_cg
+
+srun ./conjugategradient  lap2D_5pt_n100.mtx
