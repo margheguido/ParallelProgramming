@@ -56,13 +56,13 @@ int main ( int argc, char **argv ) {
 		exit(1);
 	}
 	else    
-	{ 	/* 
+	{ 	
 		// If I create the matrix depending on the grid size N 
 		N = atoi(argv[1]);
 		A= creat_mat_lap(N);
 		m=N*N;
 		n=N*N;
-		*/
+		/*
 		A = read_mat(argv[1]);
 		sA = get_size(argv[1]);
 		m = sA.m;
@@ -78,7 +78,7 @@ int main ( int argc, char **argv ) {
 		printf("N = %d \n",N);
 		printf("nz = %d \n",nz);
 		printf("val[0] = %f \n",val[0]);
-		
+		*/
 	}
 	
 	

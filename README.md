@@ -1,5 +1,16 @@
 PHPC - CONJUGATE GRADIENT PROJECT
 
+PROJECT Matgherita guido
+=====================
+The code in the main folder is the serial version, while two different parallelizations are in the folders "Parallel-byrow" and "Parallel-bycol"
+
+Modules needed
+$ module load gcc openblas mvapich2
+
+Run using
+$ sbatch script_cg
+
+
 HOWTO COMPILE AND RUN
 =====================
 
